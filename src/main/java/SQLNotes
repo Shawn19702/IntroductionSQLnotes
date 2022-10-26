@@ -1,0 +1,51 @@
+Select Retrieves one or more rows from from one or more tables
+Insert adds one or more rows to a table
+Updates modifies one or more rows in a table
+Where lets you modify or select a certain row
+Delete removes one or more rows from a table
+You would do SELECT COLUMN NAME, COLUMN NAME FROM TABLE NAME; to select more than one column from a table
+The * wildcard can select all the columns or a pacific column in a table
+You can alias the table name to shorten the name of the table
+Distinct removes duplicates
+The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition.
+Boolean operators:
+equals: =
+Not Equal: <>
+Greater than: >
+Less Than: <
+Greater or Equal: >=
+Less or Equal: <=
+AND combines two expressions includes row when both expressions are true
+OR combines two expressions includes row when either expressions are true
+ACT on column and two values true if column is between two values
+LIKE contains special characters like if your looking for a value that contains the letter 'a'
+IN is like a multi value operator and gives you list of potential values
+IS just for values that might be null
+IS not is also just for null acts like a not equals operator
+Order BY always sorting of result set
+Set functions compute new values from column values
+SET is often used together and inside the function
+SET Functions + Qualifiers are often used together and add inside of the function
+GROUP BY allows multiple columns with a set function
+HAVING works like WHERE works against SELECT
+CROSS JOIN is the simplest join with all rows from both tables
+INNER JOIN  allow us to match the column value in one of the tables to the column value in another one of the tables
+ Outer joins will work even when there is no match.
+The left outer join specifies all the rows from the left side table will be returned NULL
+The right outer join specifies all the rows from the left side table will be returned NULL
+Self join allows you to join a table by itself
+INSERT allows you to add values only one table at a time
+BULK INSERT allows you to insert multiple rows with one statement
+UPDATE modifies columns
+DELETE removes columns
+PRIMARY KEY is a unique value
+CONSTRAINT is a way to add keys in one grouping
+
+
+
+
+
+
+
+
+
